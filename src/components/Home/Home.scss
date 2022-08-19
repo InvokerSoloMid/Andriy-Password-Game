@@ -1,0 +1,23 @@
+html, body, #root, .container-with-padding {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  &-with-padding {
+    padding-top: 25vh;
+  }
+}
+
+p {
+  font-size: 36px;
+  color: white;
+}

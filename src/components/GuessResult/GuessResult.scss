@@ -1,0 +1,36 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.dot {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 0 10px;
+  @media only screen and (max-width: 414px) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+p {
+  color: white;
+  font-size: 28px;
+}
+
+.new-game-btn {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+}
